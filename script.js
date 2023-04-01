@@ -24,7 +24,7 @@ form.addEventListener('submit', (e) => {
     // get data from formData object
     const email = formData.get('email');
     const name = formData.get('name');
-    
+
     // Do something with the data
     console.log('FormData ---> ', name, email);
-})
+});
